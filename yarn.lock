@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@types/nightmare@^2.10.4":
+  version "2.10.4"
+  resolved "https://registry.yarnpkg.com/@types/nightmare/-/nightmare-2.10.4.tgz#9e2fb3c0a0fab515dd57568c4e43169ecc22d854"
+  integrity sha512-G7wcaXQ4LOTglVnNBylEZO13GH7+4SGxjCSV7/tm3Ae20tkJ3zCKdqYEP81ojP4TlqGXS03kxcvr14rvqxxC6A==
+  dependencies:
+    "@types/node" "*"
+
+"@types/node@*":
+  version "14.14.31"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.31.tgz#72286bd33d137aa0d152d47ec7c1762563d34055"
+  integrity sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
+
 "@types/node@^8.0.24":
   version "8.10.66"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.66.tgz#dd035d409df322acc83dff62a602f12a5783bbb3"
