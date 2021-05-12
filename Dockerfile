@@ -10,8 +10,10 @@ RUN apt-get update && apt-get install -y \
   libasound2-dev \
   xvfb
 
+COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
+
 COPY package.json yarn.lock ./
 RUN yarn install && yarn cache clean
 
 COPY src ./src
-CMD xvfb-run yarn start
