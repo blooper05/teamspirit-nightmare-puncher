@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "prebuild": "yarn clean",
+    "build": "tsc --project tsconfig.json",
+    "clean": "rimraf dist",
     "format": "prettier --write \"src/**/*.{ts,tsx}\" \"test/**/*.{ts,tsx}\"",
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "yarn lint --fix"
