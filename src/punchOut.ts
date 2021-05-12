@@ -2,7 +2,7 @@ import Nightmare from 'nightmare';
 
 const nightmare = new Nightmare({ show: false });
 
-const url = 'https://teamspirit.cloudforce.com/';
+const url = 'https://teamspirit.ap0.visual.force.com/apex/AtkWorkComponent';
 const username = 'USERNAME';
 const password = 'PASSWORD';
 
@@ -15,6 +15,8 @@ nightmare
   .insert('#password', password)
   .uncheck('#rememberUn')
   .click('#Login')
+  .wait('#btnEtInput.pw_btnnet')
+  .click('#btnEtInput')
   .end()
   .then(console.log)
   .catch((error) => console.error(error));
