@@ -17,6 +17,4 @@ nightmare
   .click('#Login')
   .wait('#btnStInput.pw_btnnst')
   .click('#btnStInput')
-  .end()
-  .then(console.log)
-  .catch((error) => console.error(error));
+  .end();
