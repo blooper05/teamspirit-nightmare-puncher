@@ -1,0 +1,15 @@
+---
+version: '3.7'
+
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app:cached
+      - module-data:/app/node_modules:delegated
+    environment:
+      DEBUG: nightmare*,electron:*
+
+volumes:
+  module-data:
+    driver: local
