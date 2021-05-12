@@ -9,7 +9,8 @@
     "clean": "rimraf dist",
     "format": "prettier --write \"src/**/*.{ts,tsx}\" \"test/**/*.{ts,tsx}\"",
     "lint": "eslint src --ext .ts,.tsx",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "start:dev": "ts-node-dev --require dotenv/config --files"
   },
   "dependencies": {
     "nightmare": "^3.0.2"
