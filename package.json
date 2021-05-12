@@ -1,8 +1,8 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "index.js",
   "scripts": {
     "prebuild": "yarn clean",
     "build": "tsc --project tsconfig.json",
