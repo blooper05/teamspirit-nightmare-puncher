@@ -12,5 +12,7 @@ import { nightmare, url, username, password } from './index';
     .click('#Login')
     .wait('#btnStInput.pw_btnnst')
     .click('#btnStInput')
+    .wait('#busyWaitMessage')
+    .wait('#btnStInput.pw_btnnst_dis')
     .end();
 })();
