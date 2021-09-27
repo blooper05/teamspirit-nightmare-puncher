@@ -2921,10 +2921,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript-language-server@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/typescript-language-server/-/typescript-language-server-0.6.1.tgz#201dacbeee5162015859dc08cdfb56140fc1b5c7"
-  integrity sha512-ZqqD4XK1EgITEoW1SaOnNe473K5EMr7vSYwFeqK4Fe37TjNyEwB+2vXuqW01kPujiw7tRpv3teDAl7WtP9AmIw==
+typescript-language-server@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/typescript-language-server/-/typescript-language-server-0.6.2.tgz#6c80ef497a88792e86675e378ee2c00c6dd635f1"
+  integrity sha512-JiLQ5G7CWlswUFhBhudoX4jbfgyo/CIIED3CIrrlwcl/QSTt1gDZX+3sx1H/yTwzJRhnKgKS/AnbzbU9tgSVEA==
   dependencies:
     command-exists "^1.2.6"
     commander "^7.2.0"
