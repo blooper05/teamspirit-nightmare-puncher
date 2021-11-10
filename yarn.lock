@@ -3000,10 +3000,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript-language-server@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/typescript-language-server/-/typescript-language-server-0.6.2.tgz#6c80ef497a88792e86675e378ee2c00c6dd635f1"
-  integrity sha512-JiLQ5G7CWlswUFhBhudoX4jbfgyo/CIIED3CIrrlwcl/QSTt1gDZX+3sx1H/yTwzJRhnKgKS/AnbzbU9tgSVEA==
+typescript-language-server@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/typescript-language-server/-/typescript-language-server-0.7.0.tgz#c0368ce869fd3afeb0e48bb5ec64f0982cfaeb8c"
+  integrity sha512-Fk1YH38N1SaPhYALv3eEBW0xQKzEaYXJIvgB07lIc5gvP323hD1xEUBwlVSB0WyE96ffHT4CTXDSrmJmDbzROA==
   dependencies:
     command-exists "^1.2.6"
     commander "^7.2.0"
