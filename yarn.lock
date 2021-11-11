@@ -3000,15 +3000,16 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript-language-server@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/typescript-language-server/-/typescript-language-server-0.6.2.tgz#6c80ef497a88792e86675e378ee2c00c6dd635f1"
-  integrity sha512-JiLQ5G7CWlswUFhBhudoX4jbfgyo/CIIED3CIrrlwcl/QSTt1gDZX+3sx1H/yTwzJRhnKgKS/AnbzbU9tgSVEA==
+typescript-language-server@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/typescript-language-server/-/typescript-language-server-0.7.1.tgz#bf0b1a97551e4e385b3f97668ce09b5751d27122"
+  integrity sha512-pxPFvsDQolUTJTBdr8e9Qo+SBCYU8RIUO0l8eODMjBDvG9rTl6NTME+OEzMiR8LQ8siZ2jdQUq4K+6a/+20JCQ==
   dependencies:
     command-exists "^1.2.6"
     commander "^7.2.0"
     fs-extra "^10.0.0"
     p-debounce "^2.1.0"
+    semver "^7.3.5"
     tempy "^1.0.1"
     vscode-languageserver "^7.0.0"
     vscode-languageserver-protocol "^3.16.0"
