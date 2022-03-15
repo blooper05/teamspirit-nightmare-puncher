@@ -16,7 +16,7 @@
     "nightmare": "^3.0.2"
   },
   "devDependencies": {
-    "@types/nightmare": "^2.10.5",
+    "@types/nightmare": "^2.10.6",
     "@types/node": "^17.0.21",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
