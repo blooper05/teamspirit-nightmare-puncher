@@ -3,11 +3,10 @@ env:
   es2022: true
   node: true
 extends:
-  - airbnb
-  - airbnb-typescript
+  - airbnb-base
+  - airbnb-typescript/base
   - plugin:@typescript-eslint/recommended
   - plugin:prettier/recommended
 parserOptions:
   project: ./tsconfig.json
-rules:
-  {}
+rules: {}
