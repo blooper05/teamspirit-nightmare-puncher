@@ -5,8 +5,8 @@ services:
   app:
     build: .
     volumes:
-      - .:/app:cached
-      - module-data:/app/node_modules:delegated
+      - .:/usr/src/app:cached
+      - module-data:/usr/src/app/node_modules:delegated
     environment:
       DEBUG: nightmare*,electron:*
 

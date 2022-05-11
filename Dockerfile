@@ -1,6 +1,6 @@
 FROM node:18.1.0
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
 RUN apt-get update && apt-get install -y \
   libgtk-3-dev \
