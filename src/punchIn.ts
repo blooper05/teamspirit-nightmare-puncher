@@ -15,4 +15,4 @@ import { nightmare, url, username, password } from './index';
     .wait('#busyWaitMessage')
     .wait('#btnStInput.pw_btnnst_dis')
     .end();
-})();
+})().catch(() => {});
