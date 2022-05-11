@@ -15,4 +15,6 @@ import { nightmare, url, username, password } from './index';
     .wait('#busyWaitMessage')
     .wait('#btnStInput.pw_btnnst_dis')
     .end();
-})().catch(() => {});
+})().catch((e) => {
+  console.error(e); // eslint-disable-line no-console
+});
