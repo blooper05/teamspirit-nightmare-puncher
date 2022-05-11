@@ -10,10 +10,10 @@ import { nightmare, url, username, password } from './index';
     .insert('#password', password)
     .uncheck('#rememberUn')
     .click('#Login')
-    .wait('#btnEtInput.pw_btnnet')
+    .wait('#btnEtInput:enabled')
     .click('#btnEtInput')
     .wait('#busyWaitMessage')
-    .wait('#btnEtInput.pw_btnnet_dis')
+    .wait('#btnEtInput:disabled')
     .end();
 })().catch((e) => {
   console.error(e); // eslint-disable-line no-console
