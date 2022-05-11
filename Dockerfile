@@ -3,13 +3,13 @@ FROM node:18.1.0-bullseye-slim
 WORKDIR /usr/src/app
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-  libgtk-3-bin \
-  libxtst6 \
-  libxss1 \
-  libgconf2-dev \
-  libnss3-dev \
-  libasound2-dev \
-  xvfb \
+  libgtk-3-bin=3.24.24-* \
+  libxtst6=2:1.2.3-* \
+  libxss1=1:1.2.3-* \
+  libgconf2-dev=3.2.6-* \
+  libnss3-dev=2:3.61-* \
+  libasound2-dev=1.2.4-* \
+  xvfb=2:1.20.11-* \
   && rm -rf /var/lib/apt/lists/*
 
 COPY entrypoint.sh /entrypoint.sh
