@@ -2552,10 +2552,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript-language-server@^0.9.7:
-  version "0.9.7"
-  resolved "https://registry.yarnpkg.com/typescript-language-server/-/typescript-language-server-0.9.7.tgz#2a4fc4b090c951715eed9df12fa47fc432ce4d3e"
-  integrity sha512-xjw6C9PctpLSwKEqaavSKfeH1CRmx1sD/DWXjig4xA/e9Y9/Mr70ViOinq5grFzexzDcdqdb7VDdkf7Ke+eZFg==
+typescript-language-server@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/typescript-language-server/-/typescript-language-server-0.10.0.tgz#285ac26672637625d53965afe92b48505d709682"
+  integrity sha512-VHCrQT2Znbcb+Bbw+cE1vVN2k9mZCJzjxW/i8b3B8Vhw8PNCNHYkWE3i0SzYshWCktWQk/LepJX/imKHEXw6YA==
   dependencies:
     commander "^9.0.0"
     fs-extra "^10.0.0"
