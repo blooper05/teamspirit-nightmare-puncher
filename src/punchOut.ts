@@ -1,4 +1,4 @@
-import { nightmare, url, username, password } from './index';
+import { nightmare, url, username, password } from './index.js';
 
 (async () => {
   await nightmare
