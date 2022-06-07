@@ -33,6 +33,6 @@
     "typescript-language-server": "^0.10.1"
   },
   "engines": {
-    "node": "18.2.0"
+    "node": "18.3.0"
   }
 }
