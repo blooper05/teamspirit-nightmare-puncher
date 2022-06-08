@@ -3,8 +3,8 @@ services:
   app:
     build: .
     volumes:
-      - .:/usr/src/app:cached
-      - module-data:/usr/src/app/node_modules:delegated
+      - .:/usr/src/app
+      - module-data:/usr/src/app/node_modules
     environment:
       DEBUG: nightmare*,electron:*
 
