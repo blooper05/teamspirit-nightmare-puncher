@@ -1,4 +1,4 @@
-FROM node:18.3.0-bullseye-slim
+FROM node:18.4.0-bullseye-slim
 
 WORKDIR /usr/src/app
 
